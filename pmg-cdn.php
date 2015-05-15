@@ -189,7 +189,7 @@ class PMG_CDN
     {
         return preg_replace(
             "#=(['\"])" // open equal sign and opening quote
-            . "((?:https?:)?//{$this->site_url})?/" // domain (optional)
+            . "((?:https?:)?//{$this->site_url})/" // domain (optional)
             . "((?:(?!\\1).)+)" // look for anything that's not our opening quote
             . "\.(" . implode('|', $this->ext) . ")" // extensions
             . "(\?((?:(?!\\1).))+)?" // match query strings
