@@ -1,0 +1,17 @@
+{
+    "name": "pmg/wp-cdn",
+    "description": "Simple origin-pull CDN plugin for WordPress",
+    "keywords": ["wordpress", "cdn"],
+    "license": "MIT",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Christopher Davis",
+            "homepage": "http://christopherdavis.me",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    }
+}
